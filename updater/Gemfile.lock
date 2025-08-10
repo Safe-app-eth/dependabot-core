@@ -30,7 +30,7 @@ PATH
       faraday (~> 2.7)
       faraday-retry (~> 2.2)
       gitlab (~> 5.0)
-      json (< 2.12)
+      json (< 2.14)
       nokogiri (~> 1.8)
       octokit (~> 7.2)
       opentelemetry-api (~> 1.5)
@@ -193,33 +193,34 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.3)
     aws-eventstream (1.4.0)
-    aws-partitions (1.1135.0)
-    aws-sdk-codecommit (1.87.0)
-      aws-sdk-core (~> 3, >= 3.227.0)
+    aws-partitions (1.1144.0)
+    aws-sdk-codecommit (1.89.0)
+      aws-sdk-core (~> 3, >= 3.228.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-core (3.227.0)
+    aws-sdk-core (3.229.0)
       aws-eventstream (~> 1, >= 1.3.0)
       aws-partitions (~> 1, >= 1.992.0)
       aws-sigv4 (~> 1.9)
       base64
+      bigdecimal
       jmespath (~> 1, >= 1.6.1)
       logger
-    aws-sdk-ecr (1.106.0)
-      aws-sdk-core (~> 3, >= 3.227.0)
+    aws-sdk-ecr (1.108.0)
+      aws-sdk-core (~> 3, >= 3.228.0)
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.12.1)
       aws-eventstream (~> 1, >= 1.0.2)
     base64 (0.2.0)
     bigdecimal (3.2.2)
     citrus (3.0.2)
-    commonmarker (2.3.1)
+    commonmarker (2.3.2)
       rb_sys (~> 0.9)
-    commonmarker (2.3.1-aarch64-linux)
-    commonmarker (2.3.1-aarch64-linux-musl)
-    commonmarker (2.3.1-arm64-darwin)
-    commonmarker (2.3.1-x86_64-darwin)
-    commonmarker (2.3.1-x86_64-linux)
-    commonmarker (2.3.1-x86_64-linux-musl)
+    commonmarker (2.3.2-aarch64-linux)
+    commonmarker (2.3.2-aarch64-linux-musl)
+    commonmarker (2.3.2-arm64-darwin)
+    commonmarker (2.3.2-x86_64-darwin)
+    commonmarker (2.3.2-x86_64-linux)
+    commonmarker (2.3.2-x86_64-linux-musl)
     concurrent-ruby (1.3.5)
     crack (1.0.0)
       bigdecimal
@@ -315,7 +316,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jmespath (1.6.2)
-    json (2.11.3)
+    json (2.13.2)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     llhttp-ffi (0.5.1)
@@ -439,7 +440,7 @@ GEM
     rainbow (3.1.1)
     rake (13.3.0)
     rake-compiler-dock (1.9.1)
-    rb_sys (0.9.116)
+    rb_sys (0.9.117)
       rake-compiler-dock (= 1.9.1)
     rdoc (6.14.2)
       erb
@@ -521,7 +522,7 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
-    sorbet-runtime (0.5.12358)
+    sorbet-runtime (0.5.12383)
     stackprof (0.2.27)
     stringio (3.1.7)
     terminal-table (4.0.0)
@@ -624,21 +625,21 @@ CHECKSUMS
   addressable (2.8.7) sha256=462986537cf3735ab5f3c0f557f14155d778f4b43ea4f485a9deb9c8f7c58232
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   aws-eventstream (1.4.0) sha256=116bf85c436200d1060811e6f5d2d40c88f65448f2125bc77ffce5121e6e183b
-  aws-partitions (1.1135.0) sha256=cfb69f16f35dadb444be8b49071aa98b6699ea5b1a832be48709daee673063a4
-  aws-sdk-codecommit (1.87.0) sha256=761842a9510f48f14987a02a2140c8465f0db1e3aac61d66fde91180526c50a0
-  aws-sdk-core (3.227.0) sha256=99071fc5e3ca9347873fd114574319740c3041745df3c74e27875bd912dfc79e
-  aws-sdk-ecr (1.106.0) sha256=98db44186ddbc328115ec450e5ee40e5c171fb8b5c20097eaeaf50fa0b3c244d
+  aws-partitions (1.1144.0) sha256=058c765afc3a76238542aa1a3a21ffd4026752ded4489dac2b52dcd61531ec49
+  aws-sdk-codecommit (1.89.0) sha256=c3bf198276f417c3ee52f1e6668c6125e89c931646b063b3ec2961d29f4ef96e
+  aws-sdk-core (3.229.0) sha256=792629981ee265a9d126e7c17ca236526b3b5ad4a22ff8fa9cb3c1affd46b087
+  aws-sdk-ecr (1.108.0) sha256=e56edab6a1d7639815ad36ad4fff68727a204743ad0d5123d25bea8969cecdc9
   aws-sigv4 (1.12.1) sha256=6973ff95cb0fd0dc58ba26e90e9510a2219525d07620c8babeb70ef831826c00
   base64 (0.2.0) sha256=0f25e9b21a02a0cc0cea8ef92b2041035d39350946e8789c562b2d1a3da01507
   bigdecimal (3.2.2) sha256=39085f76b495eb39a79ce07af716f3a6829bc35eb44f2195e2753749f2fa5adc
   citrus (3.0.2) sha256=4ec2412fc389ad186735f4baee1460f7900a8e130ffe3f216b30d4f9c684f650
-  commonmarker (2.3.1) sha256=8943ef0731a4205765b1ab8f25a7a9b9f62acb28b0054c7d60f06720a23cadc7
-  commonmarker (2.3.1-aarch64-linux) sha256=43b940cb5a4d59378c68d1dcf4480b4223817aaf53acebe262467eca8dd14807
-  commonmarker (2.3.1-aarch64-linux-musl) sha256=57971a5429973823f315a861210883640c864182cd622e3691b3d71321c9b3aa
-  commonmarker (2.3.1-arm64-darwin) sha256=e1c8991b92ea971b8933621124f6461ef06ea64c031429d8b8ebd297dab790dc
-  commonmarker (2.3.1-x86_64-darwin) sha256=75475606be508f0e3dbae03612516e89e8cbf8d0913c172729b53d0c30853d5e
-  commonmarker (2.3.1-x86_64-linux) sha256=afa0df3f64076f0fe996120783db6af28b6d634019ff3a954155884d409caf2a
-  commonmarker (2.3.1-x86_64-linux-musl) sha256=70556fce0bc3f67026e5a20ea9881080755cae80d165374c88498402ba9536a5
+  commonmarker (2.3.2) sha256=bf84e3735f4e5ce08125aa93689a8cda4c811579743916249322d95c2f1ce711
+  commonmarker (2.3.2-aarch64-linux) sha256=51027e4eeabdffa8cc05b0d722115f9f18d6848750b6bbbe6971ba72b8025f28
+  commonmarker (2.3.2-aarch64-linux-musl) sha256=8bc38cfb89174883b56b72133019a581d2870d79058f630459cbeaad90be4d82
+  commonmarker (2.3.2-arm64-darwin) sha256=0829dc0d18b05c292796cf6f74c8512c0280158e81b250b6e86494256c519575
+  commonmarker (2.3.2-x86_64-darwin) sha256=71a0f51a5820ce3f438d03cd1d4d9f92a673bfb1f6670927a692061cff58fd8d
+  commonmarker (2.3.2-x86_64-linux) sha256=b5118733b892c01165642b5a060d03e0fbeb6f0d39327b0424143db6c5e233e1
+  commonmarker (2.3.2-x86_64-linux-musl) sha256=1d88a929e91a4c9456fdfefa1a6ace2126b9993e5d930fb9e11462f7c7f5472e
   concurrent-ruby (1.3.5) sha256=813b3e37aca6df2a21a3b9f1d497f8cbab24a2b94cab325bffe65ee0f6cbebc6
   crack (1.0.0) sha256=c83aefdb428cdc7b66c7f287e488c796f055c0839e6e545fec2c7047743c4a49
   csv (3.3.0) sha256=0bbd1defdc31134abefed027a639b3723c2753862150f4c3ee61cab71b20d67d
@@ -714,7 +715,7 @@ CHECKSUMS
   io-console (0.8.1) sha256=1e15440a6b2f67b6ea496df7c474ed62c860ad11237f29b3bd187f054b925fcb
   irb (1.15.2) sha256=222f32952e278da34b58ffe45e8634bf4afc2dc7aa9da23fed67e581aa50fdba
   jmespath (1.6.2) sha256=238d774a58723d6c090494c8879b5e9918c19485f7e840f2c1c7532cf84ebcb1
-  json (2.11.3) sha256=9a10f658a2de67c0eb837eb795dd48132ce797c403e52b5ebef87dcdc7f9ccc1
+  json (2.13.2) sha256=02e1f118d434c6b230a64ffa5c8dee07e3ec96244335c392eaed39e1199dbb68
   language_server-protocol (3.17.0.5) sha256=fd1e39a51a28bf3eec959379985a72e296e9f9acfce46f6a79d31ca8760803cc
   lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
   llhttp-ffi (0.5.1) sha256=9a25a7fc19311f691a78c9c0ac0fbf4675adbd0cca74310228fdf841018fa7bc
@@ -767,7 +768,7 @@ CHECKSUMS
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
   rake (13.3.0) sha256=96f5092d786ff412c62fde76f793cc0541bd84d2eb579caa529aa8a059934493
   rake-compiler-dock (1.9.1) sha256=e73720a29aba9c114728ce39cc0d8eef69ba61d88e7978c57bac171724cd4d53
-  rb_sys (0.9.116) sha256=c879891018535d4362455197065ea580541b10ffdfa940bec512ec1dd9a7def4
+  rb_sys (0.9.117) sha256=755feaf6c640baceca7a9362dfb0ae87ff4ff16e3566d9ef86533896eb85cb59
   rdoc (6.14.2) sha256=9fdd44df130f856ae70cc9a264dfd659b9b40de369b16581f4ab746e42439226
   regexp_parser (2.10.0) sha256=cb6f0ddde88772cd64bff1dbbf68df66d376043fe2e66a9ef77fcb1b0c548c61
   reline (0.6.2) sha256=1dad26a6008872d59c8e05244b119347c9f2ddaf4a53dce97856cd5f30a02846
@@ -796,7 +797,7 @@ CHECKSUMS
   simplecov (0.22.0) sha256=fe2622c7834ff23b98066bb0a854284b2729a569ac659f82621fc22ef36213a5
   simplecov-html (0.12.3) sha256=4b1aad33259ffba8b29c6876c12db70e5750cb9df829486e4c6e5da4fa0aa07b
   simplecov_json_formatter (0.1.4) sha256=529418fbe8de1713ac2b2d612aa3daa56d316975d307244399fa4838c601b428
-  sorbet-runtime (0.5.12358) sha256=3b6dd52b7bafaf88426510a66e154cdecc15ed78b17bc81e9dd0ede74c7455ac
+  sorbet-runtime (0.5.12383) sha256=a27873eabe9dc88968455140bb25c2a3fac43d8aad9e209b1ee07b48b9e75a3b
   stackprof (0.2.27) sha256=aff6d28656c852e74cf632cc2046f849033dc1dedffe7cb8c030d61b5745e80c
   stringio (3.1.7) sha256=5b78b7cb242a315fb4fca61a8255d62ec438f58da2b90be66048546ade4507fa
   terminal-table (4.0.0) sha256=f504793203f8251b2ea7c7068333053f0beeea26093ec9962e62ea79f94301d2
