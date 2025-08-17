@@ -30,7 +30,7 @@ PATH
       faraday (~> 2.7)
       faraday-retry (~> 2.2)
       gitlab (~> 5.0)
-      json (< 2.12)
+      json (< 2.14)
       nokogiri (~> 1.8)
       octokit (~> 7.2)
       opentelemetry-api (~> 1.5)
@@ -193,33 +193,34 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     ast (2.4.3)
     aws-eventstream (1.4.0)
-    aws-partitions (1.1135.0)
-    aws-sdk-codecommit (1.87.0)
-      aws-sdk-core (~> 3, >= 3.227.0)
+    aws-partitions (1.1147.0)
+    aws-sdk-codecommit (1.89.0)
+      aws-sdk-core (~> 3, >= 3.228.0)
       aws-sigv4 (~> 1.5)
-    aws-sdk-core (3.227.0)
+    aws-sdk-core (3.229.0)
       aws-eventstream (~> 1, >= 1.3.0)
       aws-partitions (~> 1, >= 1.992.0)
       aws-sigv4 (~> 1.9)
       base64
+      bigdecimal
       jmespath (~> 1, >= 1.6.1)
       logger
-    aws-sdk-ecr (1.106.0)
-      aws-sdk-core (~> 3, >= 3.227.0)
+    aws-sdk-ecr (1.108.0)
+      aws-sdk-core (~> 3, >= 3.228.0)
       aws-sigv4 (~> 1.5)
     aws-sigv4 (1.12.1)
       aws-eventstream (~> 1, >= 1.0.2)
     base64 (0.2.0)
     bigdecimal (3.2.2)
     citrus (3.0.2)
-    commonmarker (2.3.1)
+    commonmarker (2.3.2)
       rb_sys (~> 0.9)
-    commonmarker (2.3.1-aarch64-linux)
-    commonmarker (2.3.1-aarch64-linux-musl)
-    commonmarker (2.3.1-arm64-darwin)
-    commonmarker (2.3.1-x86_64-darwin)
-    commonmarker (2.3.1-x86_64-linux)
-    commonmarker (2.3.1-x86_64-linux-musl)
+    commonmarker (2.3.2-aarch64-linux)
+    commonmarker (2.3.2-aarch64-linux-musl)
+    commonmarker (2.3.2-arm64-darwin)
+    commonmarker (2.3.2-x86_64-darwin)
+    commonmarker (2.3.2-x86_64-linux)
+    commonmarker (2.3.2-x86_64-linux-musl)
     concurrent-ruby (1.3.5)
     crack (1.0.0)
       bigdecimal
@@ -235,7 +236,7 @@ GEM
       rest-client (>= 1.8.0)
     domain_name (0.6.20240107)
     erb (5.0.2)
-    excon (1.2.8)
+    excon (1.2.9)
       logger
     faraday (2.13.4)
       faraday-net_http (>= 2.0, < 3.5)
@@ -264,31 +265,31 @@ GEM
       base64 (~> 0.2.0)
       httparty (~> 0.20)
       terminal-table (>= 1.5.1)
-    google-protobuf (4.31.1)
+    google-protobuf (4.32.0)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-aarch64-linux-gnu)
+    google-protobuf (4.32.0-aarch64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-aarch64-linux-musl)
+    google-protobuf (4.32.0-aarch64-linux-musl)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-arm64-darwin)
+    google-protobuf (4.32.0-arm64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-x86-linux-gnu)
+    google-protobuf (4.32.0-x86-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-x86-linux-musl)
+    google-protobuf (4.32.0-x86-linux-musl)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-x86_64-darwin)
+    google-protobuf (4.32.0-x86_64-darwin)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-x86_64-linux-gnu)
+    google-protobuf (4.32.0-x86_64-linux-gnu)
       bigdecimal
       rake (>= 13)
-    google-protobuf (4.31.1-x86_64-linux-musl)
+    google-protobuf (4.32.0-x86_64-linux-musl)
       bigdecimal
       rake (>= 13)
     googleapis-common-protos-types (1.20.0)
@@ -315,7 +316,7 @@ GEM
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jmespath (1.6.2)
-    json (2.11.3)
+    json (2.13.2)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
     llhttp-ffi (0.5.1)
@@ -354,7 +355,7 @@ GEM
     octokit (7.2.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
-    opentelemetry-api (1.5.0)
+    opentelemetry-api (1.6.0)
     opentelemetry-common (0.22.0)
       opentelemetry-api (~> 1.0)
     opentelemetry-exporter-otlp (0.30.0)
@@ -364,7 +365,7 @@ GEM
       opentelemetry-common (~> 0.20)
       opentelemetry-sdk (~> 1.2)
       opentelemetry-semantic_conventions
-    opentelemetry-exporter-otlp-logs (0.2.0)
+    opentelemetry-exporter-otlp-logs (0.2.1)
       google-protobuf (>= 3.18)
       googleapis-common-protos-types (~> 1.3)
       opentelemetry-api (~> 1.1)
@@ -373,7 +374,7 @@ GEM
       opentelemetry-logs-sdk (~> 0.1)
       opentelemetry-sdk
       opentelemetry-semantic_conventions
-    opentelemetry-exporter-otlp-metrics (0.5.0)
+    opentelemetry-exporter-otlp-metrics (0.6.0)
       google-protobuf (>= 3.18, < 5.0)
       googleapis-common-protos-types (~> 1.3)
       opentelemetry-api (~> 1.1)
@@ -386,33 +387,33 @@ GEM
       opentelemetry-api (~> 1.0)
       opentelemetry-common (~> 0.21)
       opentelemetry-registry (~> 0.1)
-    opentelemetry-instrumentation-excon (0.23.0)
+    opentelemetry-instrumentation-excon (0.24.0)
       opentelemetry-api (~> 1.0)
       opentelemetry-instrumentation-base (~> 0.23.0)
-    opentelemetry-instrumentation-faraday (0.27.0)
+    opentelemetry-instrumentation-faraday (0.28.0)
       opentelemetry-api (~> 1.0)
       opentelemetry-instrumentation-base (~> 0.23.0)
     opentelemetry-instrumentation-http (0.25.1)
       opentelemetry-api (~> 1.0)
       opentelemetry-instrumentation-base (~> 0.23.0)
-    opentelemetry-instrumentation-net_http (0.23.0)
+    opentelemetry-instrumentation-net_http (0.23.1)
       opentelemetry-api (~> 1.0)
       opentelemetry-instrumentation-base (~> 0.23.0)
     opentelemetry-logs-api (0.2.0)
       opentelemetry-api (~> 1.0)
-    opentelemetry-logs-sdk (0.2.0)
+    opentelemetry-logs-sdk (0.3.0)
       opentelemetry-api (~> 1.2)
       opentelemetry-logs-api (~> 0.1)
       opentelemetry-sdk (~> 1.3)
-    opentelemetry-metrics-api (0.3.0)
+    opentelemetry-metrics-api (0.4.0)
       opentelemetry-api (~> 1.0)
-    opentelemetry-metrics-sdk (0.7.3)
+    opentelemetry-metrics-sdk (0.8.0)
       opentelemetry-api (~> 1.1)
       opentelemetry-metrics-api (~> 0.2)
       opentelemetry-sdk (~> 1.2)
     opentelemetry-registry (0.4.0)
       opentelemetry-api (~> 1.1)
-    opentelemetry-sdk (1.8.0)
+    opentelemetry-sdk (1.8.1)
       opentelemetry-api (~> 1.1)
       opentelemetry-common (~> 0.20)
       opentelemetry-registry (~> 0.2)
@@ -439,7 +440,7 @@ GEM
     rainbow (3.1.1)
     rake (13.3.0)
     rake-compiler-dock (1.9.1)
-    rb_sys (0.9.116)
+    rb_sys (0.9.117)
       rake-compiler-dock (= 1.9.1)
     rdoc (6.14.2)
       erb
@@ -521,7 +522,7 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
     simplecov_json_formatter (0.1.4)
-    sorbet-runtime (0.5.12358)
+    sorbet-runtime (0.5.12414)
     stackprof (0.2.27)
     stringio (3.1.7)
     terminal-table (4.0.0)
@@ -594,13 +595,13 @@ DEPENDENCIES
   octokit (~> 7.2)
   opentelemetry-exporter-otlp (~> 0.30)
   opentelemetry-exporter-otlp-logs (~> 0.2)
-  opentelemetry-exporter-otlp-metrics (~> 0.5)
-  opentelemetry-instrumentation-excon (~> 0.23)
-  opentelemetry-instrumentation-faraday (~> 0.27)
+  opentelemetry-exporter-otlp-metrics (~> 0.6)
+  opentelemetry-instrumentation-excon (~> 0.24)
+  opentelemetry-instrumentation-faraday (~> 0.28)
   opentelemetry-instrumentation-http (~> 0.25)
   opentelemetry-instrumentation-net_http (~> 0.23)
-  opentelemetry-logs-sdk (~> 0.2)
-  opentelemetry-metrics-sdk (~> 0.7)
+  opentelemetry-logs-sdk (~> 0.3)
+  opentelemetry-metrics-sdk (~> 0.8)
   opentelemetry-sdk (~> 1.8)
   rake (~> 13.2)
   rspec (~> 3.12)
@@ -624,21 +625,21 @@ CHECKSUMS
   addressable (2.8.7) sha256=462986537cf3735ab5f3c0f557f14155d778f4b43ea4f485a9deb9c8f7c58232
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   aws-eventstream (1.4.0) sha256=116bf85c436200d1060811e6f5d2d40c88f65448f2125bc77ffce5121e6e183b
-  aws-partitions (1.1135.0) sha256=cfb69f16f35dadb444be8b49071aa98b6699ea5b1a832be48709daee673063a4
-  aws-sdk-codecommit (1.87.0) sha256=761842a9510f48f14987a02a2140c8465f0db1e3aac61d66fde91180526c50a0
-  aws-sdk-core (3.227.0) sha256=99071fc5e3ca9347873fd114574319740c3041745df3c74e27875bd912dfc79e
-  aws-sdk-ecr (1.106.0) sha256=98db44186ddbc328115ec450e5ee40e5c171fb8b5c20097eaeaf50fa0b3c244d
+  aws-partitions (1.1147.0) sha256=4a4c231e7c866c0cab0d5c5f751de2643f6e0b1b3336626bcc4b9e6f71074d4f
+  aws-sdk-codecommit (1.89.0) sha256=c3bf198276f417c3ee52f1e6668c6125e89c931646b063b3ec2961d29f4ef96e
+  aws-sdk-core (3.229.0) sha256=792629981ee265a9d126e7c17ca236526b3b5ad4a22ff8fa9cb3c1affd46b087
+  aws-sdk-ecr (1.108.0) sha256=e56edab6a1d7639815ad36ad4fff68727a204743ad0d5123d25bea8969cecdc9
   aws-sigv4 (1.12.1) sha256=6973ff95cb0fd0dc58ba26e90e9510a2219525d07620c8babeb70ef831826c00
   base64 (0.2.0) sha256=0f25e9b21a02a0cc0cea8ef92b2041035d39350946e8789c562b2d1a3da01507
   bigdecimal (3.2.2) sha256=39085f76b495eb39a79ce07af716f3a6829bc35eb44f2195e2753749f2fa5adc
   citrus (3.0.2) sha256=4ec2412fc389ad186735f4baee1460f7900a8e130ffe3f216b30d4f9c684f650
-  commonmarker (2.3.1) sha256=8943ef0731a4205765b1ab8f25a7a9b9f62acb28b0054c7d60f06720a23cadc7
-  commonmarker (2.3.1-aarch64-linux) sha256=43b940cb5a4d59378c68d1dcf4480b4223817aaf53acebe262467eca8dd14807
-  commonmarker (2.3.1-aarch64-linux-musl) sha256=57971a5429973823f315a861210883640c864182cd622e3691b3d71321c9b3aa
-  commonmarker (2.3.1-arm64-darwin) sha256=e1c8991b92ea971b8933621124f6461ef06ea64c031429d8b8ebd297dab790dc
-  commonmarker (2.3.1-x86_64-darwin) sha256=75475606be508f0e3dbae03612516e89e8cbf8d0913c172729b53d0c30853d5e
-  commonmarker (2.3.1-x86_64-linux) sha256=afa0df3f64076f0fe996120783db6af28b6d634019ff3a954155884d409caf2a
-  commonmarker (2.3.1-x86_64-linux-musl) sha256=70556fce0bc3f67026e5a20ea9881080755cae80d165374c88498402ba9536a5
+  commonmarker (2.3.2) sha256=bf84e3735f4e5ce08125aa93689a8cda4c811579743916249322d95c2f1ce711
+  commonmarker (2.3.2-aarch64-linux) sha256=51027e4eeabdffa8cc05b0d722115f9f18d6848750b6bbbe6971ba72b8025f28
+  commonmarker (2.3.2-aarch64-linux-musl) sha256=8bc38cfb89174883b56b72133019a581d2870d79058f630459cbeaad90be4d82
+  commonmarker (2.3.2-arm64-darwin) sha256=0829dc0d18b05c292796cf6f74c8512c0280158e81b250b6e86494256c519575
+  commonmarker (2.3.2-x86_64-darwin) sha256=71a0f51a5820ce3f438d03cd1d4d9f92a673bfb1f6670927a692061cff58fd8d
+  commonmarker (2.3.2-x86_64-linux) sha256=b5118733b892c01165642b5a060d03e0fbeb6f0d39327b0424143db6c5e233e1
+  commonmarker (2.3.2-x86_64-linux-musl) sha256=1d88a929e91a4c9456fdfefa1a6ace2126b9993e5d930fb9e11462f7c7f5472e
   concurrent-ruby (1.3.5) sha256=813b3e37aca6df2a21a3b9f1d497f8cbab24a2b94cab325bffe65ee0f6cbebc6
   crack (1.0.0) sha256=c83aefdb428cdc7b66c7f287e488c796f055c0839e6e545fec2c7047743c4a49
   csv (3.3.0) sha256=0bbd1defdc31134abefed027a639b3723c2753862150f4c3ee61cab71b20d67d
@@ -676,7 +677,7 @@ CHECKSUMS
   docker_registry2 (1.18.2) sha256=2ace909110fbca29d69dd1cdec99f555024aa6f6577798638139c8e8e556910f
   domain_name (0.6.20240107) sha256=5f693b2215708476517479bf2b3802e49068ad82167bcd2286f899536a17d933
   erb (5.0.2) sha256=d30f258143d4300fb4ecf430042ac12970c9bb4b33c974a545b8f58c1ec26c0f
-  excon (1.2.8) sha256=150f57a0f3919b8d2b3f74535596f9876389c6dde157e0bfac8f26631eb135d0
+  excon (1.2.9) sha256=e83e95bb535bac85526ab5db09f4b3416b01c3a4e0821ab36a32481c24b26036
   faraday (2.13.4) sha256=c719ff52cfd0dbaeca79dd83ed3aeea3f621032abf8bc959d1c05666157cac26
   faraday-net_http (3.4.1) sha256=095757fae7872b94eac839c08a1a4b8d84fd91d6886cfbe75caa2143de64ab3b
   faraday-retry (2.3.2) sha256=2402d2029032ebd238a2046221e67f6ef0da78c5a8ce8cd4f8b9c62e4d6451d1
@@ -694,15 +695,15 @@ CHECKSUMS
   ffi-compiler (1.3.2) sha256=a94f3d81d12caf5c5d4ecf13980a70d0aeaa72268f3b9cc13358bcc6509184a0
   flamegraph (0.9.5) sha256=a683020637ffa0e14a72640fa41babf14d926bfeaed87e31907cfd06ab2de8dc
   gitlab (5.1.0) sha256=021c27807a98f379c0cfeda459327c026d3756dbd6531dc1479f0e3df03572c7
-  google-protobuf (4.31.1) sha256=022bc82931a0860a7f2ace41bd48e904c8e65032c1d5eefc33294b5edf9741f8
-  google-protobuf (4.31.1-aarch64-linux-gnu) sha256=d5b8268b2e07776b15a73ed96ca416eab771821b162b239dbdbfb2c85e2d17e5
-  google-protobuf (4.31.1-aarch64-linux-musl) sha256=fcd5b79ac4048e89e44c4c64fb432fa6400ec3c2f0344a7effa95fbc6895d24a
-  google-protobuf (4.31.1-arm64-darwin) sha256=177ca61d254e4516d42997aa9d3127fd5e04ffc60c4ad333b1515ded6d7af89d
-  google-protobuf (4.31.1-x86-linux-gnu) sha256=88fbe376846cd2eb16f538f56c987ec389b932316f40a4db53c317543e0c978e
-  google-protobuf (4.31.1-x86-linux-musl) sha256=8f91a6046bf9c94cf5dfe70a3415c38931f60851cfedefc059c2bda13d758256
-  google-protobuf (4.31.1-x86_64-darwin) sha256=bdf067d1456167275ca7ce269922a99d24fcb9071d86429289cd73f0cf536ae4
-  google-protobuf (4.31.1-x86_64-linux-gnu) sha256=7def6dbf996dab289dd541a3ee8b201e2c3e35911c274325ad9b483ebffb6dcd
-  google-protobuf (4.31.1-x86_64-linux-musl) sha256=7d99d7728d9d7a6fda36130acac2a9947b868e28fe3f4aec4131cebce0d420f9
+  google-protobuf (4.32.0) sha256=e64bdc0280e9bb9233fa3f62b72a5c4d1522679c5cb4485b0fec726d0b6b96ab
+  google-protobuf (4.32.0-aarch64-linux-gnu) sha256=764c3e3e4e4952f798746e5933375f50609572aa964b767d7ab0f96a57fca788
+  google-protobuf (4.32.0-aarch64-linux-musl) sha256=17d1442d5e266b96362c35fde23722797344083eddef459fe58731babcc7f52e
+  google-protobuf (4.32.0-arm64-darwin) sha256=c2a3508af783e0b72171a400c54040be7f65523126cb83f1686d521ef20f5b9b
+  google-protobuf (4.32.0-x86-linux-gnu) sha256=a1e6009382255dd6b8fc1151134ac56d64d1f64bbab4bbb3235f5d81727e2fca
+  google-protobuf (4.32.0-x86-linux-musl) sha256=3c94f71e37dbdda8fae129c8c2c26e2d65b197424d0efa9b356a2215c43bb28c
+  google-protobuf (4.32.0-x86_64-darwin) sha256=60098f391bbb47c31df8f8fb7f86f307606bf560877f6253f9f142f024d86895
+  google-protobuf (4.32.0-x86_64-linux-gnu) sha256=0813ffbb2cade07e757be35a32036455d52cb18856e34666b508c492925d747b
+  google-protobuf (4.32.0-x86_64-linux-musl) sha256=d26307111f43a27065f38128d744b6e3fcebfb6c6c1595d3755787cda6eebced
   googleapis-common-protos-types (1.20.0) sha256=5e374b06bcfc7e13556e7c0d87b99f1fa3d42de6396a1de3d8fc13aefb4dd07f
   gpgme (2.0.25) sha256=9242408b28720513145deb6150f25f5fe5149f3728ebaea635050cc3fc84dc34
   hashdiff (1.2.0) sha256=c984f13e115bfc9953332e8e83bd9d769cfde9944e2d54e07eb9df7b76e140b5
@@ -714,7 +715,7 @@ CHECKSUMS
   io-console (0.8.1) sha256=1e15440a6b2f67b6ea496df7c474ed62c860ad11237f29b3bd187f054b925fcb
   irb (1.15.2) sha256=222f32952e278da34b58ffe45e8634bf4afc2dc7aa9da23fed67e581aa50fdba
   jmespath (1.6.2) sha256=238d774a58723d6c090494c8879b5e9918c19485f7e840f2c1c7532cf84ebcb1
-  json (2.11.3) sha256=9a10f658a2de67c0eb837eb795dd48132ce797c403e52b5ebef87dcdc7f9ccc1
+  json (2.13.2) sha256=02e1f118d434c6b230a64ffa5c8dee07e3ec96244335c392eaed39e1199dbb68
   language_server-protocol (3.17.0.5) sha256=fd1e39a51a28bf3eec959379985a72e296e9f9acfce46f6a79d31ca8760803cc
   lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
   llhttp-ffi (0.5.1) sha256=9a25a7fc19311f691a78c9c0ac0fbf4675adbd0cca74310228fdf841018fa7bc
@@ -736,22 +737,22 @@ CHECKSUMS
   nokogiri (1.18.9-x86_64-linux-gnu) sha256=b52f5defedc53d14f71eeaaf990da66b077e1918a2e13088b6a96d0230f44360
   nokogiri (1.18.9-x86_64-linux-musl) sha256=e69359d6240c17e64cc9f43970d54f13bfc7b8cc516b819228f687e953425e69
   octokit (7.2.0) sha256=7032d968d03177ee7a29e3bd4782fc078215cca4743db0dfc66a49feb9411907
-  opentelemetry-api (1.5.0) sha256=8dcc33e7aba70b1da630065ce0db3d6f50cb8ebd2017383209739439025ea997
+  opentelemetry-api (1.6.0) sha256=c21f2898365d5e759d52da7b7c11f04b36d680f7e47c29c7a93b0c5631819867
   opentelemetry-common (0.22.0) sha256=ce5e96a0f838d67eb70a1d32e02bdbe7b8f41767bc71994d73b299a8b0c5878d
   opentelemetry-exporter-otlp (0.30.0) sha256=07cb0446bb782dfcf7cc27d2d6ebcf9aef1a4585b3f4952be6276a1e77d5ba97
-  opentelemetry-exporter-otlp-logs (0.2.0) sha256=d665bd0320dbcaf4717faa728fd201d6490804bedeff76bde39e88e24dd44570
-  opentelemetry-exporter-otlp-metrics (0.5.0) sha256=363da0c529275c6c76f55ea3b8e35c0186fb6611f3d74d2d8e7daae643fbdf92
+  opentelemetry-exporter-otlp-logs (0.2.1) sha256=dc9bcd104e226211fb3f35110fbf5f632ebb0fc7f891dab0056dc6fd72596ef4
+  opentelemetry-exporter-otlp-metrics (0.6.0) sha256=89930bbe0ef7c7041a0b602bf1a1df1463d9a2c67440f5b2fc075ccfea29d10e
   opentelemetry-instrumentation-base (0.23.0) sha256=b3e103ceea2ccf3e6269a394938a5bc239c80d113869fe2b2ac49ba27c3c1c50
-  opentelemetry-instrumentation-excon (0.23.0) sha256=3ae5c57a05457f3bfea796ef815d261df94ffc4a83e4b691128044185a8a3f07
-  opentelemetry-instrumentation-faraday (0.27.0) sha256=2376b11c04a69d5f6619066916f9373942c9d5b5a218ab4efdcf72d5e7de4564
+  opentelemetry-instrumentation-excon (0.24.0) sha256=fc26fed2817c36bf5cc628f64c52f8d6fc5af66c538b68feb820e401d761801e
+  opentelemetry-instrumentation-faraday (0.28.0) sha256=d35ceafb5d2e18c398c601c8b7c06be35db00e771f7fe78f56ebc65aacfe6c66
   opentelemetry-instrumentation-http (0.25.1) sha256=70424c12fa60f850f0a8218d3ce425ed9bd7d548cd43b5572876b3301f85bb3f
-  opentelemetry-instrumentation-net_http (0.23.0) sha256=91123b721848f807e72157725771f680f70ecdbbdd58c05577713234ff1c0a80
+  opentelemetry-instrumentation-net_http (0.23.1) sha256=1b346dc17c5591f4284774bcaff75966f5405944dc1cf3bed991924708ca3bad
   opentelemetry-logs-api (0.2.0) sha256=0e9241b9b53a315101a6a5f2efbfa80278a0d39f9220915871f8d6057c39b117
-  opentelemetry-logs-sdk (0.2.0) sha256=5911963a80e8852d07bf0e4acf630dac4177af178a0fc0287a1878114c81c640
-  opentelemetry-metrics-api (0.3.0) sha256=29f4b82cd5c5992884f4dc68d279a2cc114560f433c431bf9ef6f42d8d0f10b1
-  opentelemetry-metrics-sdk (0.7.3) sha256=8c944f07649a454074ed8a900f2582fb5d532e8b295aebc666424fc9e4f4dc30
+  opentelemetry-logs-sdk (0.3.0) sha256=561710e62e6e79641a07a10626ca97162b7f16aca7cce28ae6a81b9fe48bcc83
+  opentelemetry-metrics-api (0.4.0) sha256=37f8b8440d644ca94dfe6a9d69ad9f8da3745c810d24cd9ca950c739483b5fe0
+  opentelemetry-metrics-sdk (0.8.0) sha256=388e2e6e0ad617719fe463a047ea41deff6d45aecf39f10395ba62dafbfb1ad9
   opentelemetry-registry (0.4.0) sha256=903fa6bfaa29eac1c1d73a4fdd29b850977b5353b84b8cdff11222c00ad2968f
-  opentelemetry-sdk (1.8.0) sha256=fad979b4a6c7ad5b2f9f2bfde77ab5c0c6a9b81d5a6458becf5957e3fa371df7
+  opentelemetry-sdk (1.8.1) sha256=ee0b42709e73e412e2f1d110dacd2044d6beebb295c02603a50eab2709a4d3a0
   opentelemetry-semantic_conventions (1.11.0) sha256=89f209f588d48a8e38ca2205c24c6b4a35f3d2622c2f1854bd476c56290afdcb
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
@@ -767,7 +768,7 @@ CHECKSUMS
   rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
   rake (13.3.0) sha256=96f5092d786ff412c62fde76f793cc0541bd84d2eb579caa529aa8a059934493
   rake-compiler-dock (1.9.1) sha256=e73720a29aba9c114728ce39cc0d8eef69ba61d88e7978c57bac171724cd4d53
-  rb_sys (0.9.116) sha256=c879891018535d4362455197065ea580541b10ffdfa940bec512ec1dd9a7def4
+  rb_sys (0.9.117) sha256=755feaf6c640baceca7a9362dfb0ae87ff4ff16e3566d9ef86533896eb85cb59
   rdoc (6.14.2) sha256=9fdd44df130f856ae70cc9a264dfd659b9b40de369b16581f4ab746e42439226
   regexp_parser (2.10.0) sha256=cb6f0ddde88772cd64bff1dbbf68df66d376043fe2e66a9ef77fcb1b0c548c61
   reline (0.6.2) sha256=1dad26a6008872d59c8e05244b119347c9f2ddaf4a53dce97856cd5f30a02846
@@ -796,7 +797,7 @@ CHECKSUMS
   simplecov (0.22.0) sha256=fe2622c7834ff23b98066bb0a854284b2729a569ac659f82621fc22ef36213a5
   simplecov-html (0.12.3) sha256=4b1aad33259ffba8b29c6876c12db70e5750cb9df829486e4c6e5da4fa0aa07b
   simplecov_json_formatter (0.1.4) sha256=529418fbe8de1713ac2b2d612aa3daa56d316975d307244399fa4838c601b428
-  sorbet-runtime (0.5.12358) sha256=3b6dd52b7bafaf88426510a66e154cdecc15ed78b17bc81e9dd0ede74c7455ac
+  sorbet-runtime (0.5.12414) sha256=c144906f995c28b269f2d157c54fc3d15d664fcf405e49337764304dc9e07bb4
   stackprof (0.2.27) sha256=aff6d28656c852e74cf632cc2046f849033dc1dedffe7cb8c030d61b5745e80c
   stringio (3.1.7) sha256=5b78b7cb242a315fb4fca61a8255d62ec438f58da2b90be66048546ade4507fa
   terminal-table (4.0.0) sha256=f504793203f8251b2ea7c7068333053f0beeea26093ec9962e62ea79f94301d2
